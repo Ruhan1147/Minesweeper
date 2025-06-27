@@ -1,2 +1,2 @@
 # Minesweeper
-A minesweeper game that initialises a board of random mines that the user must avoid whilst trying to clear the board.
+This is a terminal-based Minesweeper game implemented in Python. The board is generated dynamically based on the chosen size and number of bombs. Bombs are randomly placed, and each non-bomb cell displays the count of adjacent bombs. The game uses recursion to reveal safe neighbouring cells when digging empty spaces. It features basic object-oriented design with a Board class, randomised bomb placement, and input validation. The player inputs coordinates to dig, aiming to uncover all safe cells without hitting a bomb. The code offers a good introduction to recursion, 2D lists, and simple game logic using Python.
